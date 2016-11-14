@@ -1,0 +1,7 @@
+{
+  "name": "family-history",
+  "short_name": "family-history",
+  "description": "A family tree/family history app",
+  "start_url": "/",
+  "display": "standalone"
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>family-history-app test</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+    <script src="../../../webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="../../../web-component-tester/browser.js"></script>
+
+    <link rel="import" href="../../src/family-history-app/family-history-app.html">
+  </head>
+  <body>
+
+    <test-fixture id="basic">
+      <template>
+        <family-history-app></family-history-app>
+      </template>
+    </test-fixture>
+
+    <script>
+      suite('family-history-app', function() {
+
+        test('instantiating the element works', function() {
+          var element = fixture('basic');
+          assert.equal(element.is, 'family-history-app');
+        });
+
+      });
+    </script>
+  </body>
+</html>
